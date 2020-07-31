@@ -19,10 +19,10 @@ const htmlArray = html.map(name => {
 
 module.exports = {
     entry: {
-        index: './src/js/index.js'
+        index: './src/index.js'
     },
     output: {
-        filename: './js/[name].js',
+        filename: './js/[name].bundle.js',
         path: path.resolve(__dirname, 'public')
     },
     module: {
