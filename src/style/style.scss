@@ -1,0 +1,34 @@
+//normalize css
+@import 'normalize.css';
+
+//breakpoints setup
+@import 'breakpoints.scss';
+
+//layout setup
+@import 'grid.scss';
+
+@include xs {
+    body {
+        background-color: purple;
+    }
+}
+@include sm {
+    body {
+        background-color: blue;
+    }
+}
+@include md {
+    body {
+        background-color: green;
+    }
+}
+@include lg {
+    body {
+        background-color: yellow;
+    }
+}
+@include xl {
+    body {
+        background-color: orange;
+    }
+}
